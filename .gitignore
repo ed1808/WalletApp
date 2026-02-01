@@ -1,0 +1,49 @@
+# .NET
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.csproj.user
+*.csproj.vspscc
+*.vssscc
+*.sln
+*.nupkg
+*.snupkg
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+# VS Code
+.vscode/
+# Rider
+.idea/
+*.sln.iml
+# Build
+[Dd]ebug/
+[Rr]elease/
+[xX]64/
+[xX]86/
+[Aa]rm/
+[Aa]rm64/
+# Logs
+*.log
+# OS
+.DS_Store
+Thumbs.db
+# ASP.NET
+appsettings.*.json
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+# Coverage
+*.coverage
+*.coveragexml
+coverage/**
+# Others
+*.cache
+*.tmp
