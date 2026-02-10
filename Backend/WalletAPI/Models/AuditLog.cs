@@ -9,4 +9,6 @@ public class AuditLog
     public string RecordId { get; set; } = null!;
     public string Action { get; set; } = null!;
     public DateTime CreatedAt { get; set; }
+    public string? NewValues { get; set; }
+    public string? OldValues { get; set; }
 }

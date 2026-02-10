@@ -11,4 +11,5 @@ public class Movement
     public MovementType Type { get; set; }
     public Guid AccountRefId { get; set; }
     public DateTime CreatedAt { get; set; }
+    public Account Account { get; set; } = null!;
 }

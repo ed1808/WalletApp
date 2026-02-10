@@ -1,3 +1,5 @@
+using WalletAPI.Identity;
+
 namespace WalletAPI.Models;
 
 public class User
@@ -11,4 +13,7 @@ public class User
     public string DocumentNumber { get; set; } = null!;
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+    public DocumentType DocumentType { get; set; } = null!;
+    public ICollection<Account> Accounts { get; set; } = [];
+    public ApplicationUser ApplicationUser { get; set; } = null!;
 }
